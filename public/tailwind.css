@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+.burgie {
+  --x: 2vmin;
+  --y: 4vmin;
+  --rotate: 0deg;
+  width: 6vmin;
+  max-width: 5rem;
+  transform: translate3d(var(--x), var(--y), 0) rotateY(var(--rotate));
+  transition: transform 75ms ease-in-out;
+}
+@tailwind utilities;
